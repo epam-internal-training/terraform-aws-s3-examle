@@ -1,4 +1,3 @@
-
 variable "bucket_name" {
   type = string
   validation {
@@ -38,4 +37,16 @@ variable "loging_target_prefix" {
 variable "enable_versioning" {
   type    = bool
   default = false
+}
+
+variable "environment" {
+  type = string
+}
+
+variable "project_name" {
+  type = string
+}
+
+variable "costcode" {
+  type = string
 }
